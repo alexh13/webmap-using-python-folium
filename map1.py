@@ -1,9 +1,8 @@
 # pip install folium
 
 import folium
-
-map = folium.Map(location=[80, -100])  # create map class object, location must be in lat and long
-# must translate object to html
+map = folium.Map(location=[36.778259, -119.417931], zoom_start=6)  # set map's starting location lon/lat
+# set starting zoom level for this location
 map.save("Map1.html")  # using the save method, pass the name for the map file that will be created
 
 
