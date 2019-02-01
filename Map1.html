@@ -17,7 +17,7 @@
     
     <meta name="viewport" content="width=device-width,
         initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <style>#map_9d72b96d54e3439e80bc943f263c6a86 {
+    <style>#map_00a77a21a9bb4edeac48da9544769ae2 {
         position: relative;
         width: 100.0%;
         height: 100.0%;
@@ -28,7 +28,7 @@
 </head>
 <body>    
     
-    <div class="folium-map" id="map_9d72b96d54e3439e80bc943f263c6a86" ></div>
+    <div class="folium-map" id="map_00a77a21a9bb4edeac48da9544769ae2" ></div>
 </body>
 <script>    
     
@@ -36,8 +36,8 @@
         var bounds = null;
     
 
-    var map_9d72b96d54e3439e80bc943f263c6a86 = L.map(
-        'map_9d72b96d54e3439e80bc943f263c6a86', {
+    var map_00a77a21a9bb4edeac48da9544769ae2 = L.map(
+        'map_00a77a21a9bb4edeac48da9544769ae2', {
         center: [36.778259, -119.417931],
         zoom: 6,
         maxBounds: bounds,
@@ -49,7 +49,7 @@
 
     
     
-    var tile_layer_0b7a1dd057d94e7b9b2d942296c30f84 = L.tileLayer(
+    var tile_layer_a18ae5c14cbb4557b433758634ab1e35 = L.tileLayer(
         'https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
         {
         "attribution": null,
@@ -61,5 +61,77 @@
         "opacity": 1,
         "subdomains": "abc",
         "tms": false
-}).addTo(map_9d72b96d54e3439e80bc943f263c6a86);
+}).addTo(map_00a77a21a9bb4edeac48da9544769ae2);
+    
+            var feature_group_8f8e12663dde4db7a6346ad58fdbf166 = L.featureGroup(
+                ).addTo(map_00a77a21a9bb4edeac48da9544769ae2);
+        
+    
+        var marker_e68e464fe8fa4d2fbf8e7fc38d3e00a5 = L.marker(
+            [36.9, -119.6],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_8f8e12663dde4db7a6346ad58fdbf166);
+        
+    
+
+                var icon_cba03babab3841b39044f24065af947a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e68e464fe8fa4d2fbf8e7fc38d3e00a5.setIcon(icon_cba03babab3841b39044f24065af947a);
+            
+    
+            var popup_40f5f9e02d4d4167b5e9b8a4e820427d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3d78c3f57a0745869ababda996bebb85 = $(`<div id="html_3d78c3f57a0745869ababda996bebb85" style="width: 100.0%; height: 100.0%;">Hi I am a marker</div>`)[0];
+                popup_40f5f9e02d4d4167b5e9b8a4e820427d.setContent(html_3d78c3f57a0745869ababda996bebb85);
+            
+
+            marker_e68e464fe8fa4d2fbf8e7fc38d3e00a5.bindPopup(popup_40f5f9e02d4d4167b5e9b8a4e820427d)
+            ;
+
+            
+        
+    
+        var marker_a255236a67aa4fee97407ee07faea6a4 = L.marker(
+            [32.9, -110.6],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_8f8e12663dde4db7a6346ad58fdbf166);
+        
+    
+
+                var icon_ed4bc47dbd814684bbe51597e4681b34 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a255236a67aa4fee97407ee07faea6a4.setIcon(icon_ed4bc47dbd814684bbe51597e4681b34);
+            
+    
+            var popup_665616a34ff14dc3b83994cd9e12fc09 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_56fcaf95186e41c48d225b6ff29b1eb5 = $(`<div id="html_56fcaf95186e41c48d225b6ff29b1eb5" style="width: 100.0%; height: 100.0%;">Hi I am a marker</div>`)[0];
+                popup_665616a34ff14dc3b83994cd9e12fc09.setContent(html_56fcaf95186e41c48d225b6ff29b1eb5);
+            
+
+            marker_a255236a67aa4fee97407ee07faea6a4.bindPopup(popup_665616a34ff14dc3b83994cd9e12fc09)
+            ;
+
+            
+        
 </script>
