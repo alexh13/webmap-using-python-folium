@@ -1,6 +1,3 @@
-# pip install folium
-# pip install pandas
-
 import folium
 import pandas
 
