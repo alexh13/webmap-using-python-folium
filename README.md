@@ -1,5 +1,5 @@
 # webmap-using-python-folium
-Webmap that shows population and location of Volcanoes using Python and the Folium Library
+Webmap that shows population size by webmap colors and location of Volcanoes using Python and the folium Library
 
 Command Line Install:
 - folium
