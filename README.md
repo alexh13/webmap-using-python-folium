@@ -8,4 +8,4 @@ Command Line Install:
 What I Learned:
 - Basics of folium library and what it is capable of.
 - How to impliment json files and txt files into an HTML file via Python.
-- How to extract specific data from json and txt files
+- How to extract specific data from json and txt files.
